@@ -1,0 +1,51 @@
+﻿main {
+  min-width: 600px;
+}
+main .container {
+  position: relative;
+  line-height: 85vh;
+}
+main h1 {
+  display: inline-block;
+  width: 100%;
+  font-family: "museo-sans-display";
+  font-size: 86px;
+  text-align: center;
+  letter-spacing: -0.12em;
+  line-height: .8em;
+  vertical-align: middle;
+}
+@media (min-width: 600px) {
+  main h1 {
+    font-size: 14vw;
+  }
+}
+main #header_wiggle_front .wiggle {
+  position: relative;
+  z-index: 10;
+  color: #ffffff;
+}
+#poly_shake {
+  position: absolute;
+  top: 15vh;
+  left: 15%;
+  display: block;
+  width: 70%;
+  height: 55vh;
+  min-height: 30vw;
+}
+#poly_shake polygon {
+  fill: #121212;
+}
+/*clip-path: 
+	polygon(
+		0% 100%,
+		0% 0%, 		
+			10% 20%, 13% 28%, 20% 12%, 24% 22%, 30% 8%, 34% 22%, 37% 3%,
+			45% 18%, 55% 5%, 60% 15%, 68% 3%, 76% 18%, 82% 7%, 88% 35%, 
+			94% 28%, 
+		100% 0%, 	100% 100%,
+			96% 79%, 93% 68%, 88% 85%, 84% 75%, 75% 95%, 72% 80% , 65% 98%,
+			54% 78%, 47% 92%, 43% 80%, 36% 96%, 30% 72%, 23% 87%, 19% 68%,
+			14% 79%, 12% 64%, 5% 69%
+	);*/
