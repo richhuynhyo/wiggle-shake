@@ -7,6 +7,7 @@ I wanted to replicate the "wiggle" effect of After Effects. The wiggle effect is
 
 ## Shake
 The polygon shake is achieved by randomly adjusting polygon points in an svg object. 
+
 1. An original set of points are stored as a point of reference.
 2. A new set of points are generated randomly within a set deviation of the original set.
 3. The new points are then assigned to the svg polygon.
